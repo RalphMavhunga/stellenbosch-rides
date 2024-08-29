@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web development quiz" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ralph Mavhunga" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stellenbosch Rides</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="menu grid">
+      <div class="menu-wrapper">
+        <div>
+          <h1 class="logo">Stellenbosch Rides</h1>
+        </div>
+
+        <div class="nav-bar">
+          <nav class="nav-items">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="#services">Services</a></li>
+              <li><a href="#sites">Destinations</a></li>
+              <li><a href="#book" class="booking-btn">Book</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-area">
+      <section class="hero grid">
+        <div class="hero-content">
+          <div class="banner">
+            <h2 class="banner-margin hero-text">
+              Wine, dine, and drive with Stellenbosch Rides.
+            </h2>
+            <p class="banner-margin sub-hero-text">
+              Discover the beauty of Stellenbosch and surrounding areas. Explore
+              world-class wineries. Let us handle the driving, so you can enjoy
+              the wine.
+            </p>
+            <a href="#book" class="booking-btn banner-margin">Book a Taxi</a>
+            <a href="#book" class="booking-btn banner-margin"
+              >076-848-5728</a
+            >
+          </div>
+          <div class="hero-image">
+            <img src="./images/tours.jpg" alt="hero-image" class="hero-img" />
+            <a
+              href="https://api.whatsapp.com/send?phone=+27768485728&text=Hello%20there"
+              target="_blank"
+            >
+              <img
+                src="./images/whatsapp-icon.png"
+                alt="WhatsApp Chat"
+                class="whatsapp-chat"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about grid">
+        <div class="about-content">
+          <h1 class="welcome-message-title">About Us</h1>
+          <p class="about-us">
+            We are Stellenbosch Rides, your premier transportation service for
+            exploring the picturesque wine region of Stellenbosch. With our
+            knowledgeable and friendly drivers, we'll take you to the best
+            wineries, restaurants, and attractions. Sit back, relax, and let us
+            handle the driving while you savour the beauty of Stellenbosch.
+            Discover the perfect blend of wine, food, and adventure with
+            Stellenbosch Rides.
+          </p>
+        </div>
+      </section>
+
+      <section class="services grid" id="services">
+        <div class="services-content">
+          <div class="services-text-content">
+            <h1 class="services-title">Services</h1>
+          </div>
+
+          <div class="services-card-content">
+            <span class="material-symbols-outlined services-icon">
+              flight_land
+            </span>
+            <h1 class="services-caption" style="font-weight: bold">
+              Airport Shuttle
+            </h1>
+            <p class="services-caption">
+              Just landed? Let Stellenbosch Rides take you straight to your
+              destination.
+            </p>
+          </div>
+
+          <div class="services-card-content">
+            <span class="material-symbols-outlined services-icon">
+              nature_people
+            </span>
+            <h1 class="services-caption" style="font-weight: bold">Tours</h1>
+            <p class="services-caption">
+              Explore the beauty of Stellenbosch's vineyards and nature
+              reserves. Our shuttles offer convenient transportation to your
+              chosen destination. Enjoy a hassle-free day of wine tasting and
+              adventure.
+            </p>
+          </div>
+
+          <div class="services-card-content">
+            <span class="material-symbols-outlined services-icon">
+              airport_shuttle
+            </span>
+            <h1 class="services-caption" style="font-weight: bold">
+              Taxi Services
+            </h1>
+            <p class="services-caption">
+              Need a reliable taxi service in Stellenbosch and Cape Town? Look
+              no further. Our shuttles offer comfortable transportation to
+              anywhere you want to go.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sites grid" id="sites">
+        <div class="sites-content">
+          <div class="wildlife-card-content">
+            <img
+              src="./images/wildlife.jpg"
+              alt="nature-reserve"
+              class="sites-card-content"
+            />
+            <p class="site-caption">Game Reserves</p>
+          </div>
+
+          <div class="wine-tasting">
+            <img
+              src="./images/wine-tasting.jpg"
+              alt="wine-tasting"
+              class="sites-card-content"
+            />
+            <p class="site-caption">wine tasting</p>
+          </div>
+
+          <div class="city-tours">
+            <img
+              src="./images/nature.jpg"
+              alt="hiking-biking"
+              class="sites-card-content"
+            />
+            <p class="site-caption">Nature Reserves</p>
+          </div>
+
+          <div class="wine-pairing">
+            <img
+              src="./images/wine-pairing.jpg"
+              alt="wine-pairing"
+              class="sites-card-content"
+            />
+            <p class="site-caption">Wine pairing</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-form grid" id="book">
+        <div class="booking-form-content">
+          <div class="booking-image">
+            <h1 class="services-title">Book a Taxi</h1>
+          </div>
+          <div class="book-a-shuttle">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSelhN3WDpIc_mkXcxUSCmpa6oyB0OcfqINoKWfl3LkYxlUyHA/viewform?embedded=true"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              class="book-iframe"
+              >Loading…</iframe
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer grid">
+        <div class="footer-content">
+          <p class="footer-text">Website by Ralph</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
