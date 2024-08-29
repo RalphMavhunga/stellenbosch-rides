@@ -284,8 +284,9 @@ a {
   background: #2b2a6c;
   text-align: center;
   color: white;
-  padding: 0.2rem;
+  padding: 1rem;
   font-size: 0.9rem;
+  height: 4rem;
 }
 
 /*--------------------------------------------------------------
