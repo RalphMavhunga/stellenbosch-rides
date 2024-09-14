@@ -30,12 +30,6 @@
 
   <!-- External Links (Optional) -->
   <url>
-    <loc>https://api.whatsapp.com/send?phone=+27768485728&text=Hello%20there</loc>
-    <lastmod>2024-09-14</lastmod>
-    <priority>0.50</priority>
-  </url>
-
-  <url>
     <loc>https://ralphmavhunga.netlify.app/</loc>
     <lastmod>2024-09-14</lastmod>
     <priority>0.30</priority>
