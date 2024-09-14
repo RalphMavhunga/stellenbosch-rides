@@ -16,7 +16,7 @@
 
   <!-- Destinations Section -->
   <url>
-    <loc>https://stellenboschrides.com/#sites</loc>
+    <loc>https://stellenboschrides.co.za/#sites</loc>
     <lastmod>2024-09-14</lastmod>
     <priority>0.80</priority>
   </url>
@@ -26,12 +26,5 @@
     <loc>https://stellenboschrides.co.za/#book</loc>
     <lastmod>2024-09-14</lastmod>
     <priority>0.80</priority>
-  </url>
-
-  <!-- External Links (Optional) -->
-  <url>
-    <loc>https://ralphmavhunga.netlify.app/</loc>
-    <lastmod>2024-09-14</lastmod>
-    <priority>0.30</priority>
   </url>
 </urlset>
